@@ -9,7 +9,7 @@ const AccessPage: React.FC = () => {
       <p>高橋クリニックへのアクセスはこちらです。</p>
 
       <div className="map-container">
-        <img src="/imgs/map.jpg" className="map-image" />
+        <img src={`${import.meta.env.BASE_URL}/imgs/map.jpg`} className="map-image" />
       </div>
     </Layout>
   );

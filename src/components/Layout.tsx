@@ -14,7 +14,7 @@ const Layout: React.FC<Props> = ({ children }) => {
       <div className="layout-inner">
         {/* 背景画像 */}
         <img
-          src="/imgs/takahashi_clinic.jpg"
+          src={`${import.meta.env.BASE_URL}imgs/takahashi_clinic.jpg`}
           alt="高橋クリニック トップバナー"
           className="top-image"
         />

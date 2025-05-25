@@ -7,13 +7,13 @@ import LoginPage from './pages/LoginPage';
 import BookingPage from './pages/BookingPage';
 import ConfirmationPage from './pages/ConfirmationPage';
 
-import './App.css'; // CSSを読み込む
+import './App.css';
 import { UserProvider } from './UserContext';
 
 const App: React.FC = () => {
   return (
     <UserProvider>
-      <Router>
+      <Router basename="/takayu2.fnd37">
         <Routes>
           <Route path="/" element={<TopPage />} />
           <Route path="/access" element={<AccessPage />} />
