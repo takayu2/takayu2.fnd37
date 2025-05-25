@@ -1,0 +1,13 @@
+.map-container {
+  margin-top: 1.5rem;
+  max-width: 512px;
+  max-height: 512px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-image {
+  width: 512px;
+  height: 512px;
+}
