@@ -54,6 +54,14 @@ const Layout: React.FC<Props> = ({ children }) => {
           >
             アクセス
           </Link>
+          <Link
+            to="/game"
+            className={`nav-button ${
+              location.pathname === '/game' ? 'active' : ''
+            }`}
+          >
+            ひまつぶし
+          </Link>
         </nav>
 
         {/* コンテンツ（画像の上・ボタンの下に表示） */}

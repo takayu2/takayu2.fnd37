@@ -6,6 +6,7 @@ import GuidePage from './pages/GuidePage';
 import LoginPage from './pages/LoginPage';
 import BookingPage from './pages/BookingPage';
 import ConfirmationPage from './pages/ConfirmationPage';
+import GamePage from './pages/GamePage';
 
 import './App.css';
 import { UserProvider } from './UserContext';
@@ -21,6 +22,7 @@ const App: React.FC = () => {
           <Route path="/book" element={<LoginPage />} />
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/confirm" element={<ConfirmationPage />} />
+          <Route path="/game" element={<GamePage />} />
         </Routes>
       </Router>
     </UserProvider>
